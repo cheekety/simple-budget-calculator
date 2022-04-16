@@ -1,4 +1,6 @@
 import os
+import sys
+
 class Budget(object):
     def __init__(self):
         os.system('cls')
@@ -45,4 +47,5 @@ class Budget(object):
         os.system('cls')
         self.main()
 
-Budget()
+if __name__ == '__main__':
+    sys.exit(Budget())
